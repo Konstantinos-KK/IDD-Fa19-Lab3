@@ -6,7 +6,7 @@
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?** 0-1023
  
-**b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?** 10bit 2^10
+**b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?** 10bit Since  2^10 = 1024
 
 ## Part B. RGB LED
 
@@ -16,7 +16,7 @@
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
-**a. What voltage values do you see from your force sensor?**
+**a. What voltage values do you see from your force sensor?** When no force is applied the voltage is zero. With a force the voltage jumps up close to 1023 (5V).
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
