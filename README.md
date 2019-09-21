@@ -25,10 +25,10 @@
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 I used a 22k Ohm resistance to get reasonable results. The flex sensor was connected as the FSR, the softpot and photocell also used a 22k Ohm and were connected as shown below:
 
-<p align="center"> <b> Circuit Diiagram  </b> </p>
+<p align="center"> <b> Circuit Diagram for photoresistor and softpot </b> </p>
 <p float="left">
-  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab2/blob/master/lowly_0.jpg" width="425" />
-  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab2/blob/master/lowly_5.jpg" width="425" /> 
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/photoresistor.png" width="425" />
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/example_circuit_bb-pulldown.png" width="425" /> 
 </p>
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)** The relationship with the flex sensor and softspot is linear. The photocell and the fsr have a logarithmic relationship which results in a sudden huge change in resistance.
