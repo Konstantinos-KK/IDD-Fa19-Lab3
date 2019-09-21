@@ -10,7 +10,7 @@
 
 ## Part B. RGB LED
 
-**How might you use this with only the parts in your kit? Show us your solution.**
+**How might you use this with only the parts in your kit? Show us your solution.** [Video](https://www.youtube.com/watch?v=g2FKyAP6EDs&feature=youtu.be)
 
 ## Part C. Voltage Varying Sensors 
  
@@ -35,7 +35,7 @@ I used a 22k Ohm resistance to get reasonable results. The flex sensor was conne
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.** [Video](https://www.youtube.com/watch?v=g2FKyAP6EDs&feature=youtu.be)
+**a. Include your accelerometer read-out code in your write-up.** 
 
 ### 3. IR Proximity Sensor
 
