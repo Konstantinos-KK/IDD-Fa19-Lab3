@@ -18,17 +18,24 @@
 
 **a. What voltage values do you see from your force sensor?** When no force is applied the voltage is zero. With a force the voltage jumps up close to 1023 (5V).
 
-**b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+**b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)** Logarithmic. A small change in force results to a large increase in voltage (decrease in resistance).
 
-**c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+**c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?** Using the map function we modify the code. [Fade](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/map_a0.ino)
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
+I used a 22k Ohm resistance to get reasonable results. The flex sensor was connected as the FSR, the softpot and photocell also used a 22k Ohm and were connected as shown below:
 
-**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+<p align="center"> <b> Circuit Diiagram  </b> </p>
+<p float="left">
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab2/blob/master/lowly_0.jpg" width="425" />
+  <img src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab2/blob/master/lowly_5.jpg" width="425" /> 
+</p>
+
+**e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)** The relationship with the flex sensor and softspot is linear. The photocell and the fsr have a logarithmic relationship which results in a sudden huge change in resistance.
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**
+**a. Include your accelerometer read-out code in your write-up.** [Video](https://www.youtube.com/watch?v=g2FKyAP6EDs&feature=youtu.be)
 
 ### 3. IR Proximity Sensor
 
