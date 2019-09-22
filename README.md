@@ -70,6 +70,7 @@ Section Ignored
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)** We would have to use multiple bytes to store the data. For custom data types the EEPROM routines must be used more than once. A number larger than a byte, has to be split on multiple locations and then each byte is read seperately and afterwards the result is combined.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+[Modified Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/tree/master/Switchstate)
 
 ### 2. Design your logger
  
