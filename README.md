@@ -39,7 +39,7 @@ I used a 22k Ohm resistance to get reasonable results. The flex sensor was conne
 
 ### 3. IR Proximity Sensor
 
-**Section Ignored**
+Section Ignored
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
 
