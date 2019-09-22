@@ -35,7 +35,7 @@ I used a 22k Ohm resistance to get reasonable results. The flex sensor was conne
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**  Since range is limitless for each axis, I change the RGB lights based on which direction has the largest acceleration. [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/rgd_acc.ino) [Video](https://youtu.be/HjVnfO53Nik)
+**a. Include your accelerometer read-out code in your write-up.**  Acceleration does not have a limit and thus it is difficult to map. The code uses the prevelant axis of acceleration to change the LEDs. [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/rgd_acc.ino) [Video](https://youtu.be/HjVnfO53Nik)
 
 ### 3. IR Proximity Sensor
 
@@ -65,7 +65,7 @@ Section Ignored
 
 **c. How many byte-sized data samples can you store on the Atmega328?** Memory is size 1024 bytes
 
-**d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?** Arduino analog pins have a range of 0-1023 (10 bit). Since the EEPROM has bytes which are 8-bit the signal would have to be mapped in a range (0-255). The I2C sends its information in packets of 8-bit (bytes) and thus they do not need to be mapped.
+**d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?** Arduino analog pins have a range of 0-1023 (10 bit). Since the EEPROM has bytes which are 8-bit the signal would have to be mapped in a range (0-255). The I2C sends its information in packets of 8-bit (bytes) and thus they do not need to be adjusted. However it should be noted that the datasheet includes that there is no limit in the bytes of data transfered but the EEPROM has 1024 bytes.
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)** We would have to use multiple bytes to store the data. For custom data types the EEPROM routines must be used more than once. A number larger than a byte, has to be split on multiple locations and then each byte is read seperately and afterwards the result is combined.
 
