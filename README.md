@@ -59,15 +59,15 @@ Section Ignored
  
 ### 1. Reading and writing values to the Arduino EEPROM
 
-**a. Does it matter what actions are assigned to which state? Why?** It is very important to assign the correct actions to each state since state 0 clears memory, state 1 reads and state 2 writes. If the actions are not assinged in the proper state they will not be executed.
+**a. Does it matter what actions are assigned to which state? Why?** The existing sequencial order is very important since performing actions such as write -> clear -> read would not make sense. 
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?** The code for each stage is in the setup function not in a loop. This is because you only need to clear memory, read and write once. There is no merit in executing the actions iteratively.
 
 **c. How many byte-sized data samples can you store on the Atmega328?** Memory is size 1024 bytes
 
-**d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+**d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?** Arduino analog pins have a range of 0-1023 (10 bit). Since the EEPROM has bytes which are 8-bit the signal would have to be mapped in a range (0-255). The I2C sends its information in packets of 8-bit (bytes) and thus they do not need to be mapped.
 
-**e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+**e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)** We would have to use multiple bytes to store the data. For custom data types the EEPROM routines must be used more than once. A number larger than a byte, has to be split on multiple locations and then each byte is read seperately and afterwards the result is combined.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
