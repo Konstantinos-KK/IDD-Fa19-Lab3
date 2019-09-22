@@ -59,11 +59,11 @@ Section Ignored
  
 ### 1. Reading and writing values to the Arduino EEPROM
 
-**a. Does it matter what actions are assigned to which state? Why?**
+**a. Does it matter what actions are assigned to which state? Why?** It is very important to assign the correct actions to each state since state 0 clears memory, state 1 reads and state 2 writes. If the actions are not assinged in the proper state they will not be executed.
 
-**b. Why is the code here all in the setup() functions and not in the loop() functions?**
+**b. Why is the code here all in the setup() functions and not in the loop() functions?** The code for each stage is in the setup function not in a loop. This is because you only need to clear memory, read and write once. There is no merit in executing the actions iteratively.
 
-**c. How many byte-sized data samples can you store on the Atmega328?**
+**c. How many byte-sized data samples can you store on the Atmega328?** Memory is size 1024 bytes
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
