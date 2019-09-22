@@ -35,7 +35,7 @@ I used a 22k Ohm resistance to get reasonable results. The flex sensor was conne
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**  Acceleration does not have a limit and thus it is difficult to map. The code uses the prevelant axis of acceleration to change the LEDs. [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/rgd_acc.ino) [Video](https://youtu.be/HjVnfO53Nik)
+**a. Include your accelerometer read-out code in your write-up.**  [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/rgd_acc.ino) [Video](https://youtu.be/HjVnfO53Nik)
 
 ### 3. IR Proximity Sensor
 
