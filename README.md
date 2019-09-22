@@ -10,7 +10,7 @@
 
 ## Part B. RGB LED
 
-**How might you use this with only the parts in your kit? Show us your solution.** [Video](https://www.youtube.com/watch?v=g2FKyAP6EDs&feature=youtu.be)
+**How might you use this with only the parts in your kit? Show us your solution.** [Video](https://youtu.be/XkqNqqZrJpQ)
 
 ## Part C. Voltage Varying Sensors 
  
