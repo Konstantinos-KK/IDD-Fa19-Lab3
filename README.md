@@ -35,7 +35,7 @@ I used a 22k Ohm resistance to get reasonable results. The flex sensor was conne
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.** 
+**a. Include your accelerometer read-out code in your write-up.**  Since range is limitless for each axis, I change the RGB lights based on which direction has the largest acceleration. [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/rgd_acc.ino) [Video](https://youtu.be/HjVnfO53Nik)
 
 ### 3. IR Proximity Sensor
 
