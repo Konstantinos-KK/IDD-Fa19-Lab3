@@ -54,9 +54,9 @@ Section Ignored
   <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/read_a0.jpg">
 </p>
 
-(Video)[https://youtu.be/QXh4ccJM0ao] 
+[Video](https://youtu.be/QXh4ccJM0ao)
 
-(Code)[https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/graphic.ino]
+[Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/graphic.ino)
 
 
 ## Part D. Logging values to the EEPROM and reading them back
