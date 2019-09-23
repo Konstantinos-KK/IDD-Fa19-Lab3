@@ -88,4 +88,4 @@ Section Ignored
 
 ### 3. Create your data logger!
  
-**a. Record and upload a short demo video of your logger in action.** [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/wasting_time.ino) [Video]()
+**a. Record and upload a short demo video of your logger in action.** [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/wasting_time.ino) [Video](https://youtu.be/XOvckexO8No)
