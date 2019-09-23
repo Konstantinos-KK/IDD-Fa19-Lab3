@@ -81,6 +81,11 @@ Section Ignored
   <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/state_diagram.PNG">
 </p>
 
+<p align="center"> <b> State Diagram </b> <p>
+<p align="center">
+  <img width="600" src="https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/study%20time.jpg">
+</p>
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.** [Code](https://github.com/Konstantinos-KK/IDD-Fa19-Lab3/blob/master/wasting_time.ino) [Video]()
